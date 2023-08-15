@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;  /*Suavização do scroll-rolagem*/
+}
+/* Corpo da aplicação*/
+body {
+    /* background */
+    background-color: #f2e7dc;
+    /* Texto */
+    color: #0d0d0d;
+    text-align: justify;
+    /* Alinhamento e Tamanho */
+    width: 85%;
+    margin: auto;
+}
+/* Seções dos Livros */
+section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 256px;
+    padding-right: 256px;
+
+/* 'padding' - espaçamento dentro da seção:
+   'padding-top' -espaçamento no topo
+   'padding-bottom' -espaçamento embaixo
+   'padding-left' -espaçamento na esquerda 
+   'padding-right' -espaçamento na direita       
+    - em cima embaixo esquerda direita */    
+    
+    /* - Outra forma: em sentido horário
+    padding: 64px 256px 64px 256px;
+             top right bottom left
+    
+    - Outra forma: em cima embaixo esquerda direita
+    padding: 64px 256px; */
+}
+a {
+    color:darkgoldenrod;
+}
+table {  /*Tabela*/
+    width: 100%;  /*Largura*/
+}
+/* abaixo 'td e th' de forma resumida pelo professor*/
+td {
+    background-color:#a9d9d0;
+    /*Cor de fundo*/
+}
+td,
+th { /*borda no formato shorthand*/
+    border:#000 solid 1px;
+    border-radius: 4px; 
+    text-align: center; /*alinhamento do texto*/
+    
+/* td {
+    background-color:darkturquoise;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;    
+    border-radius: 4px;
+    text-align: center;
+    /* Outra forma: 
+    - background-color:darkturquoise;
+    - border: #000 solid 1px;
+    - border-radius: 4px;... */
+/*
+th {
+    background-color: #a9d9d0;
+    border:#000 solid 1px;
+    border-radius: 4px; 
+    text-align: center;
+    /* Outra forma: 
+    background-color: #a9d9d0;
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;    
+    border-radius: 4px;
+
+    Outra forma seria colocar 
+    td,th {
+        border: #000 solid 1px;
+        border-radius: 4px;
+        text-align: center; */
+}
+tr {center
+    background-color: palegoldenrod;
+    /*Cor de fundo*/
+}
+p {    /*Título, Texto e Parágrafo*/
+    text-align: justify;
+    text-indent: 50px;
+}
+h1{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: #000;
+}
+/* Links */
+a:Link {
+    color:#f2e7dc; /*Link normal*/
+}
+a:visited {
+    color:#95bfb8; /*Link Visitado*/
+}
+a:hover {
+    color:#025454; /*Mouse sobre o link*/
+}
+a:active {
+    color: #0d0d0d; /*Link selecionado*/
+}
+/* Imagem */
+img {
+    width: 300px;
+    display: block; 
+    margin: auto;
+    border-radius: 50px;
+}
+/*Classes e IdDs*/
+.bookTitle {
+    background-color: greenyellow; /*Cor de fundo*/
+    color: #027373; /*Cor das letras*/
+    text-align: center; /*Alinhamento do texto*/
+}
+#sectionHP,
+#sectionMB,
+#sectionGO {
+    background-color: darkkhaki;
+}
+#header {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20 px;
+    margin-bottom: 0px;
+}
+#yourLibrary {
+    text-indent: 0px;
+    text-align: center;
+}
+#sumary {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20 px;
+    margin-bottom: 50 px;
+    border-radius: 0 0 50px 50px; /*Para arrendondar as 
+                   bordas no sentido horário:
+                   borda superior da esquerda,
+                   borda superior da direita,
+                   borda inferior da direita e 
+                   borda inferior da esquerda*/
+    display: flex; /*Define que a vizualização será um ao lado do outro*/
+    flex-direction: column; /*Coloca os ítens uns em cima dos outros*/
+    align-items: center; /*Alinha todos os ítens no centro*/
+}
+/*Rodapé*/
+footer {
+    background-color: #038c7f;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0; /* em cima e embaixo 30px */
+}

@@ -24,4 +24,7 @@ Portfólio: Exibe projetos anteriores do desenvolvedor, com imagens em destaque 
 do projeto, proporcionando uma visão abrangente de suas habilidades.
 Rodapé: Apresenta links para as redes sociais do desenvolvedor, finalizando o portfólio.
 
-O link do projeto:  https://marcioflorianopolis.github.io/PortfolioMarcio/
+O link do projeto no GitHub Pages: https://marcioflorianopolis.github.io/PortfolioMarcio/
+
+O link do portfólio: https://github.com/Marcioflorianopolis/PortfolioMarcio
+
